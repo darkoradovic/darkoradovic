@@ -453,7 +453,7 @@ nav ul li a{
 }
     
     #contentP {
-        width: 80%
+        width: 80%;
     }
     
     .tabcontent{
@@ -472,12 +472,14 @@ nav ul li a{
 }
     
     #Python h1{
-    width: 100%;
-    margin: 30px auto 0;}
+    width: 125%;
+    margin: 30px auto;
+    
+}
 
 #python {
-    width: 100%;
-    margin: 40px auto
+    width: 125%;
+    margin: 40px auto;
 }
     
     #contentC {
