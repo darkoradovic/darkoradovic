@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Darko Radovic</title>
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Charm:400,700|Roboto:400,700|Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <a href="index.html"><p>DR</p></a>
+        </div>
+        <div id="burger">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="index.html">Home</a>
+    <a href="resume.html">Resume</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</div>
+        </div>
+    <div id="contentP">
+    
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'React')" id="defaultOpen">React</button>
+  <button class="tablinks" onclick="openCity(event, 'Angular')">Angular</button>
+  <button class="tablinks" onclick="openCity(event, 'HTML')">HTML/CSS/JS</button>
+    <button class="tablinks" onclick="openCity(event, 'Python')">Python</button>
+</div>
+
+<!-- Tab content -->
+<div id="React" class="tabcontent">
+  <div class="card" style="width: 18rem;">
+  <img src="img/todo.JPG" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Todo app</h5>
+    <p class="card-text"></p>
+    <a  href="https://github.com/darkoradovic/todo-app" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i></a>
+  </div>
+</div>
+     <div class="card" style="width: 18rem;">
+  <img src="img/weather.JPG" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Weather app</h5>
+    
+    <a href="https://github.com/darkoradovic/weather-app" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i></a>
+  </div>
+</div>
+     <div class="card" style="width: 18rem;">
+  <img src="img/burger-app.JPG" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Burger app</h5>
+    
+    <a href="https://burger-app-fb6a6.firebaseapp.com/" target="_blank" class="btn btn-primary move"><i class="fas fa-eye"></i></a><a href="https://github.com/darkoradovic/burger-app" target="_blank" class="btn btn-primary move"><i class="fab fa-github"></i></a>
+  </div>
+</div>
+</div>
+
+<div id="Angular" class="tabcontent">
+   <div class="card" style="width: 18rem;">
+  <img src="img/webTemplate.JPG" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Web template</h5>
+    
+    <a href="https://github.com/darkoradovic/web-template" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i></a>
+  </div>
+</div> 
+</div>
+
+<div id="HTML" class="tabcontent">
+   <div class="card" style="width: 18rem;">
+  <img src="img/wood-workers.JPG" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Wood Worker</h5>
+    
+    <a href="https://github.com/darkoradovic/wood-workers" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i></a>
+  </div>
+</div>
+     <div class="card" style="width: 18rem;">
+  <img src="img/novaWeb.JPG" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Nova web</h5>
+    
+    <a href="https://github.com/darkoradovic/nova-web" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i></a>
+  </div>
+</div>
+     <div class="card" style="width: 18rem;">
+  <img src="img/lorem-template.JPG" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Lorem template</h5>
+    
+    <a href="https://github.com/darkoradovic/lorem-template" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i></a>
+  </div>
+</div>
+</div>
+        <div id="Python" class="tabcontent">
+            <h1>Data Science Projects</h1>
+  <div class="card border-info mb-3 " id="python" style="max-width: 18rem;">
+  <div class="card-header">911 Calls</div>
+  <div class="card-body text-info">
+    
+    <p class="card-text">For this project i analyzed some of the calls received by the American police (phone number: 911). The dataset is provided by Kaggle.</p>
+  </div>
+      <a href="https://github.com/darkoradovic/991_Calls" target="_blank" class="btn btn-outline-primary"><i class="fab fa-github"></i></a>
+</div>
+            <div class="card border-info mb-3 " id="python" style="max-width: 18rem;">
+  <div class="card-header">LinearRegressionE-Commerce</div>
+  <div class="card-body text-info">
+    
+    <p class="card-text">The company is in the process of deciding whether to focus on the app or website..</p>
+  </div>
+                <a href="https://github.com/darkoradovic/LinearRegressionE-Commerce" target="_blank" class="btn btn-outline-primary"><i class="fab fa-github"></i></a>
+</div>
+            <div class="card border-info mb-3 " id="python" style="max-width: 18rem;">
+  <div class="card-header">Financial data</div>
+  <div class="card-body text-info">
+    
+    <p class="card-text">In this data project i focused on the analysis of stock prices. It is primarily about the visualization and analysis capabilities, not to perform reliable financial analysis.</p>
+  </div>
+                <a href="https://github.com/darkoradovic/financial_data" target="_blank" class="btn btn-outline-primary"><i class="fab fa-github"></i></a>
+</div>
+</div>
+        
+    </div>
+    
+    <footer id="fr" class="page-footer font-small blue">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2019 Copyright: Darko Radovic
+  </div>
+  <!-- Copyright -->
+
+</footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

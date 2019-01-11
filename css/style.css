@@ -1,0 +1,535 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:link, a:link:hover{
+    text-decoration: none;
+}
+
+#header {
+    width: 100%;
+    height: 60px;
+    z-index: 100;
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#content {
+   background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+}
+
+#logo {
+    float: left;
+    margin: 8px 0 0 0;
+}
+
+#logo p {
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    margin: 0 20px;
+    color: white;
+}
+
+#logo p:hover {
+    color: #FF4300;
+    text-decoration: none;
+}
+
+.closebtn{
+    display: none;
+}
+
+#burger{
+    display: none;
+}
+
+#myNav{
+    display: none;
+}
+
+nav{
+    display: block;
+    height: 100%;
+    align-items: center;
+    padding: 0  15px;
+    color: black;
+   float: right;
+    
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: o;
+    display: flex;
+}
+
+nav ul li{
+    padding: 0 10px;
+    line-height: 60px;
+    width: 60px;
+    margin-right: 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: transform 0.5s ease;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #FF4300;
+}
+
+.avatar-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 22%;
+}
+
+.banner-text{
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 20px 0 20px;
+}
+
+.banner-text h2{
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+    opacity: 1;
+    margin: auto;
+}
+
+.banner-text hr {
+    border: 2px dotted white;
+    width: 40%;
+}
+
+.banner-text p{
+    color: white;
+    font-size: 20px;
+    padding: 0 0 20px 0;
+}
+
+/*----------RESUME----------*/
+
+#contentR {
+    width: 95%;
+    margin: 0 auto;
+}
+
+#resumeLeft {
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+    float: left;
+}
+
+#resumeLeft hr{
+    border: 2px dotted black;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #FF4300;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 100px;
+    
+  }
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.button:hover span {
+    padding-right: 25px;
+  }
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+#resumeRight {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    float: right;
+    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 50%;
+    background-color: aqua;
+}
+
+#resumeRight p{
+    float: left;
+    margin: 0 10px 0 0;
+    line-height: 16px;
+}
+
+.progress{
+     margin: 10px 0 10px 120px;
+}
+
+#resumeRight img {
+    float: left;
+    height: 70px;
+    width: 120px;
+}
+
+.ger {
+    margin: 0 40px;
+}
+
+/*---------Projects--------*/
+
+#contentP {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer; 
+  width: 120px;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #e5e7ea;
+}
+
+.tabcontent {
+  display: none;
+}
+
+.card{
+    float: left;
+    height: 400px;
+    margin: 50px 0 0 0;
+    box-shadow: 2px 4px 15px #0f0c29;
+}
+
+.card:nth-child(2){
+    margin: 50px 168px 0;
+}
+
+.card-img-top{
+    height: 190px;
+}
+
+.btn-primary {
+    margin-left: 40%;
+    margin-top: 30%;
+}
+
+.fa-github {
+    font-size: 25px;
+}
+
+.move {
+    margin-left: 50px
+}
+
+.fa-eye {
+    font-size: 25px;
+}
+
+#Python h1{
+    width: 1200px;
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+#python {
+    height: 250px;
+    width: 280px;
+    margin-left: 460px;
+}
+
+/*---------Contact---------*/
+
+#contentC {
+    width: 1000px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+#cardContact{
+    width: 100%;
+    margin-top: 10%;
+    height: 400px;
+}
+
+.blockquote p{
+    font-size: 30px;
+    width: 500px;
+    margin: 60px auto
+}
+
+footer{
+    clear: both;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+#fr {
+    padding-top: 50px;
+}
+
+
+/*----------Responsive----------*/
+
+
+@media screen and (max-width: 505px){
+   
+    nav{
+    display: none;
+    height: 0%;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+nav ul li{
+    display: none;
+}
+
+nav ul li a{
+    display: none;
+}
+    
+    #burger {
+        display: block;
+        float: right;
+        margin-top: 7px;
+        margin-right: 20px;
+        color: white;
+    }
+    
+    #myNav{
+        display: block;
+    }
+
+   .overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+    
+    #content {
+        position: relative;
+        margin-top: 0;
+        padding-top: 40px;
+    }
+
+.avatar-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    width: 40%;
+} 
+    
+    .banner-text h2{
+        font-size: 50px;
+    }
+    
+    #resumeLeft {
+    width: 100%;
+}
+    #resumeRight{
+        width: 100%
+    } 
+    
+    #resumeRight img {
+        width: 60px;
+        height: 40px;
+    }
+    
+.tab {
+    width: 100%;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+    
+    #contentP {
+        width: 80%
+    }
+    
+    .tabcontent{
+        width: 80%;
+    }
+    
+  .card{
+    float: none;
+    height: 400px;
+    margin: 50px auto;
+    box-shadow: 2px 4px 15px #0f0c29;
+}
+
+.card:nth-child(2){
+    margin: 50px auto;
+}
+    
+    #Python h1{
+    width: 100%;
+    margin: 30px auto 0;}
+
+#python {
+    width: 100%;
+    margin: 40px auto
+}
+    
+    #contentC {
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+}
+
+#cardContact{
+    width: 100%;
+    margin-top: 10%;
+    height: 100%;
+}
+
+.blockquote p{
+    font-size: 30px;
+    width: 100%;
+    margin: 60px auto
+}
+    
+    .fa-envelope{
+        margin-right: 30px;
+    }
+    
+    .fa-mobile-alt{
+        margin-right: 300px;
+    }
+    
+    .
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
