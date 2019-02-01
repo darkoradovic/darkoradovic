@@ -274,6 +274,7 @@ nav ul li a:hover{
 
 .card:nth-child(4){
     margin-right: 168px;
+    margin-bottom: 30px;
 }
 
 .card-img-top{
@@ -331,12 +332,33 @@ nav ul li a:hover{
 
 footer{
     clear: both;
-    margin-top: 50px;
+    position: fixed;
+    width: 300px;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
     font-weight: bold;
+    background-image: linear-gradient(to right top, #66696f, #697175, #6f7979, #78807c, #848780);
+     margin-left: -150px;
+    border-radius: 10px 10px 0 0;
+}
+
+.page-footer{
+    padding-top: 0;
+    height: 30px;
+    opacity: 0.8;
+    color: white;
+   
+}
+
+.footer-copyright{
+    padding-top: 0;
+    font-size: 15px;
+    line-height: 30px;
 }
 
 #fr {
-    padding-top: 50px;
+    opacity: 0.8;
 }
 
 
@@ -512,7 +534,12 @@ nav ul li a{
         margin-right: 300px;
     }
     
-    .
+    footer{
+        width: 100%;
+        left: 0;
+        right: 0;
+        margin-left: 0;
+    }
     
 }
 
