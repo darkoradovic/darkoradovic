@@ -277,6 +277,11 @@ nav ul li a:hover{
     margin-bottom: 30px;
 }
 
+.card:nth-child(6){
+    margin-left: 168px;
+    margin-bottom: 30px;
+}
+
 .card-img-top{
     height: 190px;
 }
@@ -489,12 +494,20 @@ nav ul li a{
   .card{
     float: none;
     height: 400px;
-    margin: 50px auto;
+    margin: 50px 30px;
     box-shadow: 2px 4px 15px #0f0c29;
 }
 
 .card:nth-child(2){
-    margin: 50px auto;
+    margin: 50px 30px;
+}
+    
+    .card:nth-child(4){
+    margin: 50px 30px;
+}
+    
+    .card:nth-child(6){
+    margin: 50px 30px;
 }
     
     #Python h1{
